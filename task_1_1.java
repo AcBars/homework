@@ -9,10 +9,10 @@ public class task_1_1 {
         int sum = 0;
         int  mult = 1;
         for(int i = 0; i <= num; i++){
-            sum = sum + i;
+            sum += i;
             if(i < 1){mult = 1;}
             else
-            mult =mult * i;
+            mult *= i;
         }
         System.out.printf("Треугольное число %d равно: %d \nФакториал %d равен: %d", num, sum, num, mult);
         in.close();
